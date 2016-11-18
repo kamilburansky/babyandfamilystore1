@@ -266,13 +266,7 @@ public class webtest11 {
         WebElement proceedToCheckOutButton = driver.findElement(By.xpath(".//*[@id='product_addtocart_form']/div[2]/div[6]/div[3]/div/button"));
         proceedToCheckOutButton.click();
 
-
-
-
-
         driver.quit();
-        //bitbucketPSW123
-        //gitHubPSW123
 
     }
 
