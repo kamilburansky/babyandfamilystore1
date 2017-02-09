@@ -50,7 +50,6 @@ public class webtest11 {
     //Homepage and search **************************************************************
     public void homepageAndSearch(){
 
-        System.out.println("homepageAndSearch() start");
         final String searchingWord = "monitor";
 
 
@@ -84,7 +83,7 @@ public class webtest11 {
 //
 //        WebElement searchTextButton = driver.findElement(By.cssSelector("[title='Search']"));
 //        searchTextButton.click();
-        System.out.println("homepageAndSearch() finish");
+
         driver.quit();
 
 
