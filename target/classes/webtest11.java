@@ -49,22 +49,22 @@ public class webtest11 {
 //        System.setProperty("webdriver.gecko.driver", "C:\\WebDrivers\\geckodriver.exe");
 //        driver =new FirefoxDriver();
 
-        WebDriver driver;
-        System.setProperty("webdriver.gecko.driver", "//home//kamilb//aps//webdriver//firefox//geckodriver");
-        driver =new FirefoxDriver();
+//        WebDriver driver;
+//        System.setProperty("webdriver.gecko.driver", "//home//kamilb//aps//webdriver//firefox//geckodriver");
+//        driver =new FirefoxDriver();
 
         //System.setProperty("webdriver.chrome.driver", "C:\\WebDrivers\\chromedriver.exe");
 
 
         //WebDriver driver = new ChromeDriver();
-        WebDriverWait wait = new WebDriverWait(driver,30);
+//        WebDriverWait wait = new WebDriverWait(driver,30);
 
 
 
 
 
-        driver.get("https://www.babyandfamilystore.co.uk/");
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("fasdfasXXX")));
+//        driver.get("https://www.babyandfamilystore.co.uk/");
+//        wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("fasdfasXXX")));
 
 
         //Search Results Page and find string = searchingWord **************************************************************
@@ -76,7 +76,7 @@ public class webtest11 {
 //        WebElement searchTextButton = driver.findElement(By.cssSelector("[title='Search']"));
 //        searchTextButton.click();
         System.out.println("homepageAndSearch() finish");
-        driver.quit();
+//        driver.quit();
 
 
     }
