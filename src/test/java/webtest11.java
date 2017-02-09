@@ -53,8 +53,12 @@ public class webtest11 {
         final String searchingWord = "monitor";
 
 
+//        WebDriver driver;
+//        System.setProperty("webdriver.gecko.driver", "C:\\WebDrivers\\geckodriver.exe");
+//        driver =new FirefoxDriver();
+
         WebDriver driver;
-        System.setProperty("webdriver.gecko.driver", "C:\\WebDrivers\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "//home//kamilb//aps//webdriver//firefox//geckodriver");
         driver =new FirefoxDriver();
 
         //System.setProperty("webdriver.chrome.driver", "C:\\WebDrivers\\chromedriver.exe");
@@ -68,24 +72,24 @@ public class webtest11 {
 
 
         driver.get("https://www.babyandfamilystore.co.uk/");
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("logo-img")));
+//        wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("logo-img")));
 
 
         //Search Results Page and find string = searchingWord **************************************************************
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("search")));
-        WebElement searchTextBox = driver.findElement(By.id("search"));
-        searchTextBox.clear();
-        searchTextBox.sendKeys(searchingWord);
-
-        WebElement searchTextButton = driver.findElement(By.cssSelector("[title='Search']"));
-        searchTextButton.click();
+//        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("search")));
+//        WebElement searchTextBox = driver.findElement(By.id("search"));
+//        searchTextBox.clear();
+//        searchTextBox.sendKeys(searchingWord);
+//
+//        WebElement searchTextButton = driver.findElement(By.cssSelector("[title='Search']"));
+//        searchTextButton.click();
 
         driver.quit();
 
 
     }
 
-    @Test
+//    @Test
     //Create my account **************************************************************
     //- variations
     //- no filled textboxes
@@ -106,8 +110,12 @@ public class webtest11 {
         final String passwordString = "_123passworD123";
 
 
+//        WebDriver driver;
+//        System.setProperty("webdriver.gecko.driver", "C:\\WebDrivers\\geckodriver.exe");
+//        driver =new FirefoxDriver();
+
         WebDriver driver;
-        System.setProperty("webdriver.gecko.driver", "C:\\WebDrivers\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "//home//kamilb//aps//webdriver//firefox//geckodriver");
         driver =new FirefoxDriver();
 
         WebDriverWait wait = new WebDriverWait(driver,30);
@@ -163,7 +171,7 @@ public class webtest11 {
         driver.quit();
     }
 
-    @Test
+//    @Test
     //Login my account **************************************************************
     public void loginMyAccount(){
         //- variations
@@ -212,7 +220,7 @@ public class webtest11 {
     }
 
     //5.Order Form Page without account as Guest item Tomy Baby Digital Monitor TF525
-    @Test
+//    @Test
     public void OrderFormPageWithoutAccount() {
         //- variations
         //- no filled text boxes in checkout
@@ -236,8 +244,12 @@ public class webtest11 {
 
         final String searchingSpecificWord = "Tomy Baby Digital Monitor TF525";
 
+//        WebDriver driver;
+//        System.setProperty("webdriver.gecko.driver", "C:\\WebDrivers\\geckodriver.exe");
+//        driver =new FirefoxDriver();
+
         WebDriver driver;
-        System.setProperty("webdriver.gecko.driver", "C:\\WebDrivers\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "//home//kamilb//aps//webdriver//firefox//geckodriver");
         driver =new FirefoxDriver();
 
         WebDriverWait wait = new WebDriverWait(driver,30);
