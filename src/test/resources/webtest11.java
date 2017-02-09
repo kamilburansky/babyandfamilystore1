@@ -73,6 +73,7 @@ public class webtest11 {
 
 
         driver.get("https://www.babyandfamilystore.co.uk/");
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("fasdfasXXX")));
 //        wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("logo-img")));
 
 

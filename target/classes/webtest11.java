@@ -64,7 +64,7 @@ public class webtest11 {
 
 
         driver.get("https://www.babyandfamilystore.co.uk/");
-//        wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("logo-img")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("fasdfasXXX")));
 
 
         //Search Results Page and find string = searchingWord **************************************************************
