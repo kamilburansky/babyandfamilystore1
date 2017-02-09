@@ -178,7 +178,7 @@ public class webtest11 {
 
 
         WebDriver driver;
-        System.setProperty("webdriver.gecko.driver", "C:\\WebDrivers\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "//home//kamilb//aps//webdriver//firefox//geckodriver");
         driver =new FirefoxDriver();
 
         WebDriverWait wait = new WebDriverWait(driver,30);
