@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="20" started-at="2017-02-10T14:22:26Z" finished-at="2017-02-10T14:22:26Z">
+  <suite name="Group of group Suite" duration-ms="28" started-at="2017-02-10T14:34:22Z" finished-at="2017-02-10T14:34:22Z">
     <groups>
       <group name="include-test-one">
-        <method signature="RegularExpressionGroupTest.testMethodOne()[pri:0, instance:RegularExpressionGroupTest@7c75222b]" name="testMethodOne" class="RegularExpressionGroupTest"/>
+        <method signature="RegularExpressionGroupTest.testMethodOne()[pri:0, instance:RegularExpressionGroupTest@6b71769e]" name="testMethodOne" class="RegularExpressionGroupTest"/>
       </group> <!-- include-test-one -->
       <group name="include-test-two">
-        <method signature="RegularExpressionGroupTest.testMethodTwo()[pri:0, instance:RegularExpressionGroupTest@7c75222b]" name="testMethodTwo" class="RegularExpressionGroupTest"/>
+        <method signature="RegularExpressionGroupTest.testMethodTwo()[pri:0, instance:RegularExpressionGroupTest@6b71769e]" name="testMethodTwo" class="RegularExpressionGroupTest"/>
       </group> <!-- include-test-two -->
     </groups>
-    <test name="Group of group Test" duration-ms="20" started-at="2017-02-10T14:22:26Z" finished-at="2017-02-10T14:22:26Z">
+    <test name="Group of group Test" duration-ms="28" started-at="2017-02-10T14:34:22Z" finished-at="2017-02-10T14:34:22Z">
       <class name="RegularExpressionGroupTest">
-        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:RegularExpressionGroupTest@7c75222b]" name="testMethodOne" duration-ms="7" started-at="2017-02-10T15:22:26Z" finished-at="2017-02-10T15:22:26Z">
+        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:RegularExpressionGroupTest@6b71769e]" name="testMethodOne" duration-ms="10" started-at="2017-02-10T15:34:22Z" finished-at="2017-02-10T15:34:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethodOne -->
-        <test-method status="PASS" signature="testMethodTwo()[pri:0, instance:RegularExpressionGroupTest@7c75222b]" name="testMethodTwo" duration-ms="0" started-at="2017-02-10T15:22:26Z" finished-at="2017-02-10T15:22:26Z">
+        <test-method status="PASS" signature="testMethodTwo()[pri:0, instance:RegularExpressionGroupTest@6b71769e]" name="testMethodTwo" duration-ms="1" started-at="2017-02-10T15:34:22Z" finished-at="2017-02-10T15:34:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethodTwo -->
       </class> <!-- RegularExpressionGroupTest -->
     </test> <!-- Group of group Test -->
-  </suite> <!-- Suite -->
-  <suite name="Suite (0)" duration-ms="5" started-at="2017-02-10T14:22:26Z" finished-at="2017-02-10T14:22:26Z">
+  </suite> <!-- Group of group Suite -->
+  <suite name="Parallel tests" duration-ms="8" started-at="2017-02-10T14:34:22Z" finished-at="2017-02-10T14:34:22Z">
     <groups>
     </groups>
-    <test name="Test One" duration-ms="2" started-at="2017-02-10T14:22:26Z" finished-at="2017-02-10T14:22:26Z">
+    <test name="Test One" duration-ms="3" started-at="2017-02-10T14:34:22Z" finished-at="2017-02-10T14:34:22Z">
       <class name="ParallelSuiteTest">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:ParallelSuiteTest@2812cbfa]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-02-10T15:22:26Z" finished-at="2017-02-10T15:22:26Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:ParallelSuiteTest@71be98f5]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-02-10T15:34:22Z" finished-at="2017-02-10T15:34:22Z">
           <params>
             <param index="0">
               <value>
@@ -40,27 +40,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:ParallelSuiteTest@2812cbfa]" name="testMethodOne" duration-ms="1" started-at="2017-02-10T15:22:26Z" finished-at="2017-02-10T15:22:26Z">
+        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:ParallelSuiteTest@71be98f5]" name="testMethodOne" duration-ms="1" started-at="2017-02-10T15:34:22Z" finished-at="2017-02-10T15:34:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethodOne -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ParallelSuiteTest@2812cbfa]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-02-10T15:22:26Z" finished-at="2017-02-10T15:22:26Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ParallelSuiteTest@71be98f5]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-02-10T15:34:22Z" finished-at="2017-02-10T15:34:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:ParallelSuiteTest@2812cbfa]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-02-10T15:22:26Z" finished-at="2017-02-10T15:22:26Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:ParallelSuiteTest@71be98f5]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-02-10T15:34:22Z" finished-at="2017-02-10T15:34:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:ParallelSuiteTest@2812cbfa]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-02-10T15:22:26Z" finished-at="2017-02-10T15:22:26Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:ParallelSuiteTest@71be98f5]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-02-10T15:34:22Z" finished-at="2017-02-10T15:34:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- ParallelSuiteTest -->
     </test> <!-- Test One -->
-    <test name="Test Two" duration-ms="2" started-at="2017-02-10T14:22:26Z" finished-at="2017-02-10T14:22:26Z">
+    <test name="Test Two" duration-ms="3" started-at="2017-02-10T14:34:22Z" finished-at="2017-02-10T14:34:22Z">
       <class name="ParallelSuiteTest">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:ParallelSuiteTest@6442b0a6]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-02-10T15:22:26Z" finished-at="2017-02-10T15:22:26Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:ParallelSuiteTest@96532d6]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-02-10T15:34:22Z" finished-at="2017-02-10T15:34:22Z">
           <params>
             <param index="0">
               <value>
@@ -71,23 +71,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:ParallelSuiteTest@6442b0a6]" name="testMethodOne" duration-ms="0" started-at="2017-02-10T15:22:26Z" finished-at="2017-02-10T15:22:26Z">
+        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:ParallelSuiteTest@96532d6]" name="testMethodOne" duration-ms="0" started-at="2017-02-10T15:34:22Z" finished-at="2017-02-10T15:34:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethodOne -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:ParallelSuiteTest@6442b0a6]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-02-10T15:22:26Z" finished-at="2017-02-10T15:22:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ParallelSuiteTest@6442b0a6]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-02-10T15:22:26Z" finished-at="2017-02-10T15:22:26Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ParallelSuiteTest@96532d6]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-02-10T15:34:22Z" finished-at="2017-02-10T15:34:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:ParallelSuiteTest@6442b0a6]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-02-10T15:22:26Z" finished-at="2017-02-10T15:22:26Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:ParallelSuiteTest@96532d6]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-02-10T15:34:22Z" finished-at="2017-02-10T15:34:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:ParallelSuiteTest@96532d6]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-02-10T15:34:22Z" finished-at="2017-02-10T15:34:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- ParallelSuiteTest -->
     </test> <!-- Test Two -->
-  </suite> <!-- Suite (0) -->
+  </suite> <!-- Parallel tests -->
 </testng-results>
