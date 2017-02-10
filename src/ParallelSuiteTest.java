@@ -1,3 +1,4 @@
+import org.testng.Assert;
 import org.testng.annotations.*;
 
 /**
@@ -8,7 +9,7 @@ public class ParallelSuiteTest
     String testName = "";
 
     @BeforeTest
-    @Parameters ({ "test-name" })
+    @Parameters ({ "testName" })
     public void beforeTest(String testName) {
         this.testName = testName;
         long id = Thread.currentThread().getId();
@@ -40,5 +41,9 @@ public class ParallelSuiteTest
     public void afterTest() {
         long id = Thread.currentThread().getId();
         System.out.println("After test  " + testName + ". Thread id is: " + id);
+     //   if(40==30){
+
+//        }
+//        Assert.assertTrue(false,"here is message");
     }
 }
