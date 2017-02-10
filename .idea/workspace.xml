@@ -28,8 +28,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="49" column="42" lean-forward="true" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+            <state relative-caret-position="252">
+              <caret line="84" column="43" lean-forward="true" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -38,8 +38,8 @@
       <file leaf-file-name="TestNG.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestNG.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="51" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="51" />
+            <state relative-caret-position="414">
+              <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -68,9 +68,11 @@
       <file leaf-file-name="ParallelSuiteTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ParallelSuiteTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="144">
+              <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,7 +144,6 @@
       <find>Assert</find>
       <find>Suite</find>
       <find>compiler</find>
-      <find>surefire</find>
       <find>shared</find>
       <find>tests</find>
       <find>selen</find>
@@ -151,6 +152,7 @@
       <find>selenium</find>
       <find>testng</find>
       <find>Group of group Suite</find>
+      <find>surefire</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -379,35 +381,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/suites-test-testng.xml">
-    <configuration default="false" name="/home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/main/resources/TestNG.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="webtest-0" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/TestNG.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="TestNG./home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/TestNG.xml">
     <configuration default="false" name="/home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="webtest-0" />
@@ -500,6 +474,34 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ParallelSuiteTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="RegularExpressionGroupTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="webtest-0" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegularExpressionGroupTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -725,19 +727,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG./home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/main/resources/TestNG.xml" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG./home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/testng.xml" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG./home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/suites-test-testng.xml" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG./home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/TestNG.xml" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.ParallelSuiteTest" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG./home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/testng.xml" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG./home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/suites-test-testng.xml" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG./home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/TestNG.xml" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.ParallelSuiteTest" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.RegularExpressionGroupTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG./home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/suites-test-testng.xml" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG./home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/TestNG.xml" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG./home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/TestNG.xml" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG./home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/suites-test-testng.xml" />
         <item index="2" class="java.lang.String" itemvalue="TestNG.ParallelSuiteTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG./home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/testng.xml" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG./home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/main/resources/TestNG.xml" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.RegularExpressionGroupTest" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG./home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/testng.xml" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -787,14 +789,11 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ParallelSuiteTest - 2017.02.10 at 14h 30m 34s.xml">
+    <history-entry file="ParallelSuiteTest - 2017.02.10 at 15h 13m 38s.xml">
       <configuration name="ParallelSuiteTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_kamilb_IdeaProjects_selenium_SE_GM_babyandfamilystore1_src_TestNG_xml - 2017.02.10 at 14h 30m 59s.xml">
-      <configuration name="/home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/TestNG.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_home_kamilb_IdeaProjects_selenium_SE_GM_babyandfamilystore1_src_TestNG_xml - 2017.02.10 at 14h 31m 24s.xml">
-      <configuration name="/home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/TestNG.xml" configurationId="TestNG" />
+    <history-entry file="RegularExpressionGroupTest - 2017.02.10 at 15h 13m 34s.xml">
+      <configuration name="RegularExpressionGroupTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_home_kamilb_IdeaProjects_selenium_SE_GM_babyandfamilystore1_src_TestNG_xml - 2017.02.10 at 14h 32m 44s.xml">
       <configuration name="/home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/TestNG.xml" configurationId="TestNG" />
@@ -805,16 +804,19 @@
     <history-entry file="_home_kamilb_IdeaProjects_selenium_SE_GM_babyandfamilystore1_src_TestNG_xml - 2017.02.10 at 14h 50m 08s.xml">
       <configuration name="/home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/TestNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_kamilb_IdeaProjects_selenium_SE_GM_babyandfamilystore1_src_suites-test-testng_xml - 2017.02.10 at 14h 31m 03s.xml">
-      <configuration name="/home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/suites-test-testng.xml" configurationId="TestNG" />
+    <history-entry file="_home_kamilb_IdeaProjects_selenium_SE_GM_babyandfamilystore1_src_TestNG_xml - 2017.02.10 at 15h 13m 58s.xml">
+      <configuration name="/home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/TestNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_kamilb_IdeaProjects_selenium_SE_GM_babyandfamilystore1_src_suites-test-testng_xml - 2017.02.10 at 14h 31m 27s.xml">
-      <configuration name="/home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/suites-test-testng.xml" configurationId="TestNG" />
+    <history-entry file="_home_kamilb_IdeaProjects_selenium_SE_GM_babyandfamilystore1_src_TestNG_xml - 2017.02.10 at 15h 22m 04s.xml">
+      <configuration name="/home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/TestNG.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_home_kamilb_IdeaProjects_selenium_SE_GM_babyandfamilystore1_src_suites-test-testng_xml - 2017.02.10 at 14h 32m 40s.xml">
       <configuration name="/home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/suites-test-testng.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_home_kamilb_IdeaProjects_selenium_SE_GM_babyandfamilystore1_src_suites-test-testng_xml - 2017.02.10 at 14h 50m 14s.xml">
+      <configuration name="/home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/suites-test-testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_home_kamilb_IdeaProjects_selenium_SE_GM_babyandfamilystore1_src_suites-test-testng_xml - 2017.02.10 at 15h 13m 55s.xml">
       <configuration name="/home/kamilb/IdeaProjects/selenium/SE_GM/babyandfamilystore1/src/suites-test-testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -1110,9 +1112,9 @@
         <state relative-caret-position="-378">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1486735549625" expanded="true" signature="66130:66147" ph="..." />
-            <marker date="1486735549625" expanded="true" signature="66130:66178" ph="..." />
-            <marker date="1486735549625" expanded="true" signature="66130:66147" ph="..." />
+            <marker date="1486736846297" expanded="true" signature="65960:65977" ph="..." />
+            <marker date="1486736846297" expanded="true" signature="65960:66008" ph="..." />
+            <marker date="1486736846297" expanded="true" signature="65960:65977" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1221,14 +1223,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParallelSuiteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/suites-test-testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -1239,16 +1233,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestNG.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="51" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="51" />
+        <state relative-caret-position="414">
+          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParallelSuiteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="49" column="42" lean-forward="true" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+        <state relative-caret-position="252">
+          <caret line="84" column="43" lean-forward="true" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
           <folding />
         </state>
       </provider>
