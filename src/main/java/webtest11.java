@@ -1,7 +1,7 @@
 import net.sourceforge.htmlunit.corejs.javascript.tools.shell.Global;
 import org.junit.After;
-import org.junit.Assert;
-import org.junit.Test;
+//import org.junit.Assert;
+//import org.junit.Test;
 import java.io.IOException;
 
 
@@ -15,6 +15,8 @@ import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 
 /**
@@ -50,6 +52,7 @@ public class webtest11 {
     //Homepage and search **************************************************************
     public void homepageAndSearch(){
 
+        System.out.println("homepageAndSearch() start");
         final String searchingWord = "monitor";
 
 
@@ -57,23 +60,21 @@ public class webtest11 {
 //        System.setProperty("webdriver.gecko.driver", "C:\\WebDrivers\\geckodriver.exe");
 //        driver =new FirefoxDriver();
 
-        WebDriver driver;
-        System.setProperty("webdriver.gecko.driver", "//home//kamilb//aps//webdriver//firefox//geckodriver");
-        driver =new FirefoxDriver();
+//        WebDriver driver;
+//        System.setProperty("webdriver.gecko.driver", "//home//kamilb//aps//webdriver//firefox//geckodriver");
+//        driver =new FirefoxDriver();
 
         //System.setProperty("webdriver.chrome.driver", "C:\\WebDrivers\\chromedriver.exe");
 
 
         //WebDriver driver = new ChromeDriver();
-        WebDriverWait wait = new WebDriverWait(driver,30);
+//        WebDriverWait wait = new WebDriverWait(driver,30);
 
 
+        System.out.println("homepageAndSearch() finish");
 
 
-
-        driver.get("https://www.babyandfamilystore.co.uk/");
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("fasdfasXXX")));
-
+//        driver.get("https://www.babyandfamilystore.co.uk/");
 
         //Search Results Page and find string = searchingWord **************************************************************
 //        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("search")));
@@ -84,7 +85,7 @@ public class webtest11 {
 //        WebElement searchTextButton = driver.findElement(By.cssSelector("[title='Search']"));
 //        searchTextButton.click();
 
-        driver.quit();
+//        driver.quit();
 
 
     }
@@ -212,7 +213,7 @@ public class webtest11 {
 
         //Assert.assertTrue("Email string should be visible in textBox", driver.findElements(By.partialLinkText("Inbox")).size() > 0);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div[class='page-title']")));
-        Assert.assertTrue("Email string should be visible in textBox", driver.findElements(By.cssSelector("div[class='page-title']")).size() > 0);
+        Assert.assertTrue(driver.findElements(By.cssSelector("div[class='page-title']")).size() > 0, "Email string should be visible in textBox");
 
 
         driver.quit();

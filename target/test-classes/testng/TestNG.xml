@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="3" >
+
+
+	<test name="Login, Creating Colour, Delete Colour"	>
+
+		<parameter name="webBrowser" value="Chrome"/>
+		<parameter name="quitBrowser" value="true"/>
+		<classes>
+			<class name="webtest11">
+		</class>
+
+		</classes>
+
+	</test>
+
+</suite>

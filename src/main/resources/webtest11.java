@@ -1,11 +1,22 @@
-import org.junit.Assert;
-import org.junit.Test;
+import net.sourceforge.htmlunit.corejs.javascript.tools.shell.Global;
+import org.junit.After;
+//import org.junit.Assert;
+//import org.junit.Test;
+import java.io.IOException;
+
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeDriverService;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 
 /**
@@ -60,12 +71,10 @@ public class webtest11 {
 //        WebDriverWait wait = new WebDriverWait(driver,30);
 
 
-
+        System.out.println("homepageAndSearch() finish");
 
 
 //        driver.get("https://www.babyandfamilystore.co.uk/");
-//        wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("fasdfasXXX")));
-
 
         //Search Results Page and find string = searchingWord **************************************************************
 //        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("search")));
@@ -75,7 +84,7 @@ public class webtest11 {
 //
 //        WebElement searchTextButton = driver.findElement(By.cssSelector("[title='Search']"));
 //        searchTextButton.click();
-        System.out.println("homepageAndSearch() finish");
+
 //        driver.quit();
 
 
@@ -163,7 +172,7 @@ public class webtest11 {
         driver.quit();
     }
 
-//    @Test
+    //    @Test
     //Login my account **************************************************************
     public void loginMyAccount(){
         //- variations
@@ -204,7 +213,7 @@ public class webtest11 {
 
         //Assert.assertTrue("Email string should be visible in textBox", driver.findElements(By.partialLinkText("Inbox")).size() > 0);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div[class='page-title']")));
-        Assert.assertTrue("Email string should be visible in textBox", driver.findElements(By.cssSelector("div[class='page-title']")).size() > 0);
+        Assert.assertTrue(driver.findElements(By.cssSelector("div[class='page-title']")).size() > 0, "Email string should be visible in textBox");
 
 
         driver.quit();
