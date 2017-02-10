@@ -17,7 +17,7 @@
                 <configuration>
                     <!-- Suite testng xml file to consider for test execution -->
                     <suiteXmlFiles>
-                        <suiteXmlFile>resources/testng.xml</suiteXmlFile>
+                        <suiteXmlFile>main/resources/testng.xml</suiteXmlFile>
                         <!--<suiteXmlFile>suites-test-testng.xml</suiteXmlFile>-->
                     </suiteXmlFiles>
                 </configuration>
